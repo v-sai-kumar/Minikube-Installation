@@ -46,6 +46,7 @@ sudo usermod -aG docker ubuntu
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
 ```
+# now exit and relogin then start the minikube 
 ### Step 5: Start your cluster
 ```sh
 minikube start
